@@ -1,0 +1,93 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section {
+    background-color: white;
+    width: 25em;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+p {
+    color: hsl(224, 23%, 55%);
+}
+h2 {
+    font-size: 16px;
+}
+button {
+    width: 80%;
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+    font-weight: 700;
+    background-color: rgb(56, 41, 224);
+    box-shadow: 10px 7px 2px 1px rgba(56, 41, 224, 0.05), -5px 15px 2px 1px rgba(56, 41, 224, 0.05);
+}
+button:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+#main-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+#main-p {
+    line-height: 1.5em;
+    margin: 0 10% 5%;
+}
+#plan-div {
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:10% ;
+    line-height: 0.5em;
+    border-radius: 10px;
+    margin-bottom: 1.5em;
+    padding: 0.7em 0;
+}
+#plan-div a {
+    color: hsl(245, 75%, 52%);
+    font-size: 900;
+}
+#plan-div a:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+}
+#cancel {
+    display: block;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    margin-bottom: 2em;
+}
+#cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+@media (max-width: 400px) {
+    section {
+        width: 90% ;
+    }
+}
